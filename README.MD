@@ -7,42 +7,39 @@
 </div>
 <br/>
 
-This [Refine](https://github.com/refinedev/refine) project was generated with [create refine-app](https://github.com/refinedev/refine/tree/master/packages/create-refine-app).
+---
 
-## Getting Started
+# Refine Admin Munkhstore
 
-A React Framework for building internal tools, admin panels, dashboards & B2B apps with unmatched flexibility ✨
+Этот проект представляет собой веб-приложение для управления категориями, подкатегориями и продуктами магазина, а также удобное управление атрибутами в категорий и продуктов. Приложение предоставляет интуитивно понятный интерфейс для добавления, редактирования и удаления категорий, подкатегорий и продуктов, что облегчает организацию товарной иерархии магазина.
 
-Refine's hooks and components simplifies the development process and eliminates the repetitive tasks by providing industry-standard solutions for crucial aspects of a project, including authentication, access control, routing, networking, state management, and i18n.
+![Интерфейс управления категориями и продуктами](https://github.com/Munkhadilio/Munkhstore_RefineJS/blob/main/H7KLA560dSA.gif)
 
-## Available Scripts
+## Функциональные возможности
 
-### Running the development server.
+- Управление категориями: Добавление, редактирование и удаление категорий товаров.
+- Управление подкатегориями: Добавление, редактирование и удаление подкатегорий для каждой категории.
+- Управление продуктами: Добавление, редактирование и удаление продуктов внутри категорий и подкатегорий.
+- Иерархическое представление: Визуальное отображение категорий и подкатегорий в виде древовидной структуры.
+- Редактирование на месте: Возможность редактировать категории, подкатегории и продукты прямо в интерфейсе.
+- Атрибуты категорий: При добавлении атрибутов к категориям, значения этих атрибутов можно изменять для каждого продукта, что обеспечивает гибкость в управлении спецификациями товаров.
 
-```bash
-    npm run dev
-```
+## Установка и запуск
 
-### Building for production.
+Для запуска этого проекта выполните следующие шаги:
 
-```bash
-    npm run build
-```
+1. Установите зависимости:
+      yarn
 
-### Running the production server.
+3. Запустите проект:
+      vite start
 
-```bash
-    npm run start
-```
+## Используемые технологии
 
-## Learn More
-
-To learn more about **Refine**, please check out the [Documentation](https://refine.dev/docs)
-
-- **REST Data Provider** [Docs](https://refine.dev/docs/core/providers/data-provider/#overview)
-- **Material UI** [Docs](https://refine.dev/docs/ui-frameworks/mui/tutorial/)
-- **Custom Auth Provider** [Docs](https://refine.dev/docs/core/providers/auth-provider/)
-- **React Router** [Docs](https://refine.dev/docs/core/providers/router-provider/)
+- React
+- Material-UI
+- Prisma
+- Axios
 
 ## License
 
